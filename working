@@ -1,0 +1,3 @@
+Log Parsing: Uses a regular expression to parse each log line for IP address, datetime, request, and status code.
+Counters: Utilizes Counter from the collections module to keep track of status codes, requested pages, and IP addresses.
+Report Generation: The generate_report function prints a summary of the log analysis, including the number of 404 errors, the most requested pages, and the IP addresses with the most requests
