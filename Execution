@@ -1,0 +1,5 @@
+Ensure your log file is named access.log and located in the same directory as the script, or update the log_file_path variable with the correct path.
+Save the script to a file, for example, log_analyzer.py.
+Run the script using
+python log_analyzer.py
+The script will analyze the log file and output a summarized report to the console. You can modify the script to write the report to a file if needed.
